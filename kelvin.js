@@ -1,5 +1,5 @@
-function convertor(valoare , tip){
-  let kelvinToCelsius = valoare-273;
+function convertor(kelvin , tip){
+  let kelvinToCelsius = kelvin-273;
 if(tip === "Fahrenheit"){
 let fahrenheit  = kelvinToCelsius * (9/5) + 32;
   return "TEMPERATURE IS " + Math.floor(fahrenheit)  +" Farinhate" ;
